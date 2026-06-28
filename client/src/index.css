@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@keyframes fade {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+  
+  .animate-fade {
+    animation: fade 8s ease-in-out infinite;
+  }
+@import "tailwindcss";
+
+@theme
+{
+    --font-Taj:"Tajwal",sans-serif;
+    --font-Chewy:"Chewy",sans-serif;
+}
+body{
+    @apply font-Taj
+}
